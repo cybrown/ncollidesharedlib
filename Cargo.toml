@@ -1,0 +1,14 @@
+[package]
+name = "ncollidesharedlib"
+version = "0.1.0"
+authors = ["Cy Brown <cy.brown59@gmail.com>"]
+edition = "2018"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ncollide3d = "0.23.2"
